@@ -1,0 +1,68 @@
+{
+  "Wakame": {
+    "title": "Wakame",
+    "description": "Species of seaweed",
+    "extract": "Wakame (Undaria pinnatifida) is a species of kelp native to cold, temperate coasts of the northwest Pacific Ocean. As an edible seaweed, it has a subtly sweet, but distinctive and strong flavour and satiny texture. It is most often served in soups and salads.",
+    "url": "https://en.wikipedia.org/wiki/Wakame"
+  },
+  "Rose_water": {
+    "title": "Rose water",
+    "description": "Rose-flavored water",
+    "extract": "Rose water or rosewater is a flavoured water created by steeping rose petals in water. It is typically made as a by-product during the distillation of rose petals to make rose oil for perfumes. Rose water is widely used to flavour culinary dishes and enhance cosmetic products, and it is significant in religious rituals throughout Eurasia. Iran is a major producer, supplying around 90% of the world's rose water demand.",
+    "url": "https://en.wikipedia.org/wiki/Rose_water"
+  },
+  "Sharbat": {
+    "title": "Sharbat (drink)",
+    "description": "Sweet drinks",
+    "extract": "Sharbat is a drink prepared from fruit or flower petals. It is a sweet cordial, and usually served chilled. It can be served in concentrated form and eaten with a spoon or diluted with water to create the drink.",
+    "url": "https://en.wikipedia.org/wiki/Sharbat_(drink)"
+  },
+  "Kitchari": {
+    "title": "Khichdi",
+    "description": "South Asian rice and lentil dish",
+    "extract": "Khichdi or khichri is a dish in South Asian cuisine made of rice and lentils (dal) with numerous variations. Variations include bajra and mung dal khichri. In Indian culture, in several regions, especially in the northern areas, it is one of the first solid foods that babies eat.",
+    "url": "https://en.wikipedia.org/wiki/Kitchari"
+  },
+  "Congee": {
+    "title": "Congee",
+    "description": "Asian savoury rice porridge dish",
+    "extract": "Congee is a form of savoury porridge, primarily made by boiling rice in a large amount of water until the rice softens. Depending on the rice–water ratio, the thickness of congee varies from a Western oatmeal porridge to a gruel. Congee is typically served with side dishes, or it can be topped with meat, fish, and pickled vegetables.",
+    "url": "https://en.wikipedia.org/wiki/Congee"
+  },
+  "Imam_Ibn_al-Qayyim": {
+    "title": "Ibn Qayyim al-Jawziyya",
+    "description": "Muslim scholar, jurist, and theologian (1292–1350)",
+    "extract": "Shams al-Dīn ʾAbū ʿAbd Allāh Muḥammad ibn ʾAbī Bakr ibn ʾAyyūb al-Zurʿī al-Dimashqī al-Ḥanbalī, commonly known as Ibn Qayyim al-Jawziyya or Ibn al-Qayyim for short, or reverentially as al-Imam Ibn al-Qayyim in Sunni tradition, was an important medieval Syrian Arab Islamic jurist, theologian, and spiritual writer. Belonging to the Hanbali school of Fiqh, of which he is regarded as \"one of the most important thinkers,\" Ibn al-Qayyim was also the foremost disciple and student of Ibn Taymiyya, with ",
+    "url": "https://en.wikipedia.org/wiki/Ibn_al-Qayyim_al-Jawziyya"
+  },
+  "Ibn_Sina": {
+    "title": "Avicenna",
+    "description": "Persian polymath, physician and philosopher (c. 980–1037)",
+    "extract": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought. Avicenna is considered one of the greatest thinkers and medical scholars in history.",
+    "url": "https://en.wikipedia.org/wiki/Avicenna"
+  },
+  "Piperine": {
+    "title": "Piperine",
+    "description": "Alkaloid responsible for the pungency of black pepper",
+    "extract": "Piperine is an alkaloid extracted from the plant, Piper nigrum. Responsible for the pungency of black pepper, it is used in food flavorings as a spice, in fragrances, as an insecticide, and as an animal pest repellent.",
+    "url": "https://en.wikipedia.org/wiki/Piperine"
+  },
+  "Thymoquinone": {
+    "title": "Thymoquinone",
+    "description": "Chemical compound",
+    "extract": "Thymoquinone is a phytochemical compound found in the plant Nigella sativa. It is also found in select cultivated Monarda fistulosa plants, which can be steam distilled to produce an essential oil. Thymoquinone is also a major oxidation product of both thymol and its structural isomer, carvacrol.",
+    "url": "https://en.wikipedia.org/wiki/Thymoquinone"
+  },
+  "Beta-glucan": {
+    "title": "Beta-glucan",
+    "description": "Class of chemical compounds",
+    "extract": "Beta-glucans, β-glucans comprise a group of β-D-glucose polysaccharides (glucans) naturally occurring in the cell walls of plants, bacteria, algae and fungi, with significantly differing physicochemical properties dependent on source. Typically, β-glucans form a linear backbone with 1–3 β-glycosidic bonds but differ with respect to molecular mass, solubility, viscosity, branching structure, and gelation properties, with several physiological roles in these organisms and causing diverse physiolog",
+    "url": "https://en.wikipedia.org/wiki/Beta-glucan"
+  },
+  "Agni": {
+    "title": "Agni",
+    "description": "Hindu fire god",
+    "extract": "Agni is the Hindu god of fire. As the guardian deity of the southeast direction, he is typically found in southeast corners of Hindu temples. In the classical cosmology of Hinduism, fire (Agni) is one of the five inert impermanent elements (Pañcabhūtá) along with sky (Ākāśa), water (Apas), air (Vāyu) and earth (Pṛthvī), the five combining to form the empirically perceived material existence (Prakṛti).",
+    "url": "https://en.wikipedia.org/wiki/Agni"
+  }
+}

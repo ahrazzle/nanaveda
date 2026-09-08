@@ -1,0 +1,104 @@
+{
+  "Turmeric": {
+    "title": "Turmeric",
+    "description": "Plant used as spice",
+    "extract": "Turmeric, or Curcuma longa, is a flowering plant in the ginger family Zingiberaceae. It is a perennial, rhizomatous, herbaceous plant native to the Indian subcontinent and Southeast Asia that requires temperatures between 20 and 30 °C and high annual rainfall to thrive. Plants are gathered each year for their rhizomes, some for propagation in the following season and some for consumption or dyeing.",
+    "url": "https://en.wikipedia.org/wiki/Turmeric"
+  },
+  "Ginger": {
+    "title": "Ginger",
+    "description": "Species of plant used as a spice",
+    "extract": "Ginger is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine. It is an herbaceous perennial that grows annual pseudostems about one meter tall, bearing narrow leaf blades. The inflorescences bear flowers having pale yellow petals with purple edges, and arise directly from the rhizome on separate shoots.",
+    "url": "https://en.wikipedia.org/wiki/Ginger"
+  },
+  "Sage": {
+    "title": "Salvia officinalis",
+    "description": "Species of plant",
+    "extract": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant. The common name \"sage\" is also used for closely related species and cultivars.",
+    "url": "https://en.wikipedia.org/wiki/Salvia_officinalis"
+  },
+  "Honey": {
+    "title": "Honey",
+    "description": "Sweet and viscous substance made by bees",
+    "extract": "Honey is a sweet and viscous substance made by several species of bees, the best-known of which are honey bees. Honey is made and stored to nourish bee colonies. Bees produce honey by gathering and then refining the sugary secretions of plants or the secretions of other insects, like the honeydew of aphids. This refinement takes place both within individual bees, through regurgitation and enzymatic activity, and during storage in the hive, through water evaporation that concentrates the honey's ",
+    "url": "https://en.wikipedia.org/wiki/Honey"
+  },
+  "Hibiscus": {
+    "title": "Roselle (plant)",
+    "description": "Species of flowering plant",
+    "extract": "Roselle is a species of flowering plant in the genus Sabdariffa that is native to Africa, most likely West Africa. In the 16th and early 17th centuries it was spread to Asia and the West Indies, where it has since become naturalized in many places. The stems are used for the production of bast fibre and the calyces are commonly steeped to make an infusion popular in many places around the world.",
+    "url": "https://en.wikipedia.org/wiki/Hibiscus_sabdariffa"
+  },
+  "Black_seed": {
+    "title": "Nigella sativa",
+    "description": "Species of flowering plant in the buttercup family",
+    "extract": "Nigella sativa is an annual flowering plant in the family Ranunculaceae, native to western Asia, and eastern Europe. It is used as a spice in various food preparations.",
+    "url": "https://en.wikipedia.org/wiki/Nigella_sativa"
+  },
+  "Miso": {
+    "title": "Miso",
+    "description": "Traditional Japanese seasoning",
+    "extract": "Miso  is a traditional Japanese seasoning. It is a thick paste produced by fermenting soybeans with salt and kōji, and sometimes rice, barley, seaweed, or other ingredients. It is used for sauces and spreads; pickling vegetables, fish, or meats; and mixing with dashi soup stock to serve as miso soup, a Japanese culinary staple food. Miso is high in protein and rich in minerals, and it played an important nutritional role in feudal Japan. Miso is widely used in both traditional and modern cooking",
+    "url": "https://en.wikipedia.org/wiki/Miso"
+  },
+  "Beetroot": {
+    "title": "Beta vulgaris",
+    "description": "Species of flowering plant",
+    "extract": "Beta vulgaris (beet) is a species of flowering plant in the subfamily Betoideae of the family Amaranthaceae. It is a perennial plant usually growing up to 120 centimetres (4 ft) tall.",
+    "url": "https://en.wikipedia.org/wiki/Beta_vulgaris"
+  },
+  "Saffron": {
+    "title": "Saffron",
+    "description": "Spice made from crocus flowers",
+    "extract": "Saffron is a spice derived from the flower of Crocus sativus, commonly known as the \"saffron crocus\". The vivid crimson stigma and styles, called threads, are collected and dried for use mainly as a seasoning and colouring agent in food. Saffron crocus was slowly propagated throughout much of Eurasia and later brought to parts of North Africa, North America, and Oceania.",
+    "url": "https://en.wikipedia.org/wiki/Saffron"
+  },
+  "Cardamom": {
+    "title": "Cardamom",
+    "description": "Spice",
+    "extract": "Cardamom, sometimes cardamon or cardamum, is a spice made from the seeds of several plants in the genera Elettaria and Amomum in the family Zingiberaceae. Both genera are native to the Indian subcontinent and Indonesia. They are recognized by their small seed pods: triangular in cross-section and spindle-shaped, with a thin, papery outer shell and small, black seeds; Elettaria pods are light green and smaller, while Amomum pods are dark brown and larger.",
+    "url": "https://en.wikipedia.org/wiki/Cardamom"
+  },
+  "Goji": {
+    "title": "Goji",
+    "description": "Fruit of Lycium barbarum",
+    "extract": "Goji, goji berry, or wolfberry, is the fruit of either Lycium barbarum or Lycium chinense, two closely related species of boxthorn in the nightshade family, Solanaceae. The two species are similar, but can be distinguished by differences in taste and sugar content. Both Lycium species are native to East Asia, and have been long used in traditional East Asian cuisine. In the United States, varieties of the genus are given the common names, desert-thorn; Berlandier's wolfberry is used for Lycium b",
+    "url": "https://en.wikipedia.org/wiki/Goji"
+  },
+  "Jujube": {
+    "title": "Jujube",
+    "description": "Species of plant with edible fruit",
+    "extract": "Jujube, jujuba, Chinese jujube, red date or Chinese date is a species in the genus Ziziphus in the buckthorn family Rhamnaceae. It is often confused with the closely related Indian jujube, Z. mauritiana. The jujube tolerates a diverse range of climates, from temperate to tropical. Its origin is thought to be in eastern Asia, but it has been widely dispersed through cultivation, and is today cultivated in gardens as a shrub as well as in agriculture as a food crop. Its fruit is eaten freshly harv",
+    "url": "https://en.wikipedia.org/wiki/Jujube"
+  },
+  "Shiitake": {
+    "title": "Shiitake",
+    "description": "Species of edible mushroom",
+    "extract": "The shiitake is an edible mushroom native to East Asia and mainland Southeast Asia, which is cultivated and consumed around the globe. The earliest written records of their cultivation dates to 1209, during the Song dynasty in China.",
+    "url": "https://en.wikipedia.org/wiki/Shiitake"
+  },
+  "Mushroom": {
+    "title": "Mushroom",
+    "description": "Spore-bearing fruiting body of a fungus",
+    "extract": "A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground on soil or another food source. A toadstool generally refers to a poisonous mushroom.",
+    "url": "https://en.wikipedia.org/wiki/Mushroom"
+  },
+  "Avicenna": {
+    "title": "Avicenna",
+    "description": "Persian polymath, physician and philosopher (c. 980–1037)",
+    "extract": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought. Avicenna is considered one of the greatest thinkers and medical scholars in history.",
+    "url": "https://en.wikipedia.org/wiki/Avicenna"
+  },
+  "Curcumin": {
+    "title": "Curcumin",
+    "description": "Principal curcuminoid of turmeric",
+    "extract": "Curcumin is a bright yellow chemical produced by the plant species Curcuma longa. It is the principal curcuminoid of turmeric, a member of the ginger family, Zingiberaceae. It is sold as an herbal supplement, cosmetics ingredient, food flavoring, and food coloring.",
+    "url": "https://en.wikipedia.org/wiki/Curcumin"
+  },
+  "Dosha": {
+    "title": "Dosha",
+    "description": "Ayurvedic medicine concept",
+    "extract": "Dosha is a central term in ayurveda originating from Sanskrit, and which refers to three categories or types of substances that are believed to be present conceptually in a person's body and mind. These dosha are assigned specific qualities and functions. These qualities and functions are affected by external and internal stimuli received by the body. Beginning with twentieth-century ayurvedic literature, the \"three-dosha theory\" has described how the quantities and qualities of three fundamenta",
+    "url": "https://en.wikipedia.org/wiki/Dosha"
+  }
+}

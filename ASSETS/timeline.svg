@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #faf6ee; }
+      .timeline { stroke: #b8a88a; stroke-width: 3; }
+      .event-dot { fill: #d4a853; stroke: #b88a3a; stroke-width: 2; }
+      .islamic-dot { fill: #8a3a4a; }
+      .label { font-family: Georgia, serif; font-size: 11px; fill: #2a2018; }
+      .date { font-family: Georgia, serif; font-size: 12px; fill: #b88a3a; font-weight: bold; }
+      .title { font-family: Georgia, serif; font-size: 14px; fill: #2a2018; font-weight: bold; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="800" height="250"/>
+  
+  <!-- Title -->
+  <text class="title" x="400" y="35" text-anchor="middle">Timeline: 3,500 Years of Kitchen Medicine</text>
+  
+  <!-- Timeline line -->
+  <line class="timeline" x1="50" y1="120" x2="750" y2="120"/>
+  
+  <!-- Events -->
+  <!-- 1500 BCE -->
+  <circle class="event-dot" cx="80" cy="120" r="8"/>
+  <text class="date" x="80" y="90" text-anchor="middle">1500 BCE</text>
+  <text class="label" x="80" y="150" text-anchor="middle">Ayurveda</text>
+  <text class="label" x="80" y="165" text-anchor="middle">formalized</text>
+  
+  <!-- 200 BCE -->
+  <circle class="event-dot" cx="180" cy="120" r="8"/>
+  <text class="date" x="180" y="90" text-anchor="middle">200 BCE</text>
+  <text class="label" x="180" y="150" text-anchor="middle">Charaka</text>
+  <text class="label" x="180" y="165" text-anchor="middle">Samhita</text>
+  
+  <!-- 600 CE -->
+  <circle class="islamic-dot event-dot" cx="300" cy="120" r="8"/>
+  <text class="date" x="300" y="90" text-anchor="middle" fill="#8a3a4a">622 CE</text>
+  <text class="label" x="300" y="150" text-anchor="middle">Prophetic</text>
+  <text class="label" x="300" y="165" text-anchor="middle">Medicine</text>
+  
+  <!-- 1025 CE -->
+  <circle class="islamic-dot event-dot" cx="420" cy="120" r="8"/>
+  <text class="date" x="420" y="90" text-anchor="middle" fill="#8a3a4a">1025 CE</text>
+  <text class="label" x="420" y="150" text-anchor="middle">Canon of</text>
+  <text class="label" x="420" y="165" text-anchor="middle">Medicine</text>
+  
+  <!-- 1200 CE -->
+  <circle class="event-dot" cx="540" cy="120" r="8"/>
+  <text class="date" x="540" y="90" text-anchor="middle">1200 CE</text>
+  <text class="label" x="540" y="150" text-anchor="middle">Silk Road</text>
+  <text class="label" x="540" y="165" text-anchor="middle">peak</text>
+  
+  <!-- 1400 CE -->
+  <circle class="event-dot" cx="650" cy="120" r="8"/>
+  <text class="date" x="650" y="90" text-anchor="middle">1400 CE</text>
+  <text class="label" x="650" y="150" text-anchor="middle">Ottoman</text>
+  <text class="label" x="650" y="165" text-anchor="middle">sharbat</text>
+  
+  <!-- 1998 CE -->
+  <circle class="event-dot" cx="730" cy="120" r="8"/>
+  <text class="date" x="730" y="90" text-anchor="middle">1998 CE</text>
+  <text class="label" x="730" y="150" text-anchor="middle">Piperine</text>
+  <text class="label" x="730" y="165" text-anchor="middle">discovery</text>
+  
+  <!-- Legend -->
+  <circle cx="250" cy="220" r="5" fill="#d4a853" stroke="#b88a3a" stroke-width="2"/>
+  <text class="label" x="265" y="225">Historical Event</text>
+  <circle cx="400" cy="220" r="5" fill="#8a3a4a"/>
+  <text class="label" x="415" y="225">Islamic Golden Age</text>
+</svg>

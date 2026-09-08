@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #faf6ee; }
+      .liver-box { fill: #e8dfc8; stroke: #b8a88a; stroke-width: 2; rx: 8; }
+      .curcumin { fill: #d4a853; }
+      .piperine { fill: #4a9fa8; }
+      .blocked { fill: #c85a4a; opacity: 0.3; }
+      .label { font-family: Georgia, serif; font-size: 13px; fill: #2a2018; font-weight: bold; }
+      .sublabel { font-family: Georgia, serif; font-size: 10px; fill: #6b5a48; font-style: italic; }
+      .title { font-family: Georgia, serif; font-size: 16px; fill: #2a2018; font-weight: bold; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="800" height="280"/>
+  
+  <!-- Title -->
+  <text class="title" x="400" y="35" text-anchor="middle">The Pepper Secret: Piperine Blocks Curcumin Breakdown</text>
+  
+  <!-- WITHOUT pepper scenario -->
+  <g transform="translate(50, 60)">
+    <text class="label" x="150" y="0" text-anchor="middle">Without Black Pepper</text>
+    
+    <!-- Curcumin molecules entering liver -->
+    <circle class="curcumin" cx="50" cy="50" r="8"/>
+    <circle class="curcumin" cx="80" cy="50" r="8"/>
+    <circle class="curcumin" cx="110" cy="50" r="8"/>
+    <circle class="curcumin" cx="140" cy="50" r="8"/>
+    <circle class="curcumin" cx="170" cy="50" r="8"/>
+    
+    <!-- Liver -->
+    <rect class="liver-box" x="30" y="80" width="160" height="60" rx="8"/>
+    <text class="label" x="110" y="105" text-anchor="middle">Liver Enzymes</text>
+    <text class="sublabel" x="110" y="125" text-anchor="middle">Glucuronidation</text>
+    
+    <!-- Blocked/eliminated -->
+    <rect class="blocked" x="200" y="30" width="80" height="80" rx="8"/>
+    <text class="label" x="240" y="60" text-anchor="middle" fill="#c85a4a">Destroyed</text>
+    <text class="sublabel" x="240" y="80" text-anchor="middle">90% lost</text>
+    
+    <!-- Arrow -->
+    <path d="M190,110 L220,80" stroke="#c85a4a" stroke-width="2" fill="none"/>
+    
+    <!-- Result -->
+    <text class="label" x="110" y="180" text-anchor="middle">Only 10% survives</text>
+    <text class="sublabel" x="110" y="198" text-anchor="middle">to reach bloodstream</text>
+  </g>
+  
+  <!-- WITH pepper scenario -->
+  <g transform="translate(400, 60)">
+    <text class="label" x="150" y="0" text-anchor="middle">With Black Pepper</text>
+    
+    <!-- Curcumin molecules -->
+    <circle class="curcumin" cx="50" cy="50" r="8"/>
+    <circle class="curcumin" cx="80" cy="50" r="8"/>
+    <circle class="curcumin" cx="110" cy="50" r="8"/>
+    <circle class="curcumin" cx="140" cy="50" r="8"/>
+    <circle class="curcumin" cx="170" cy="50" r="8"/>
+    
+    <!-- Piperine blocking -->
+    <rect class="piperine" x="30" y="80" width="160" height="60" rx="8"/>
+    <text class="label" x="110" y="105" text-anchor="middle" fill="white">Piperine Blocks</text>
+    <text class="sublabel" x="110" y="125" text-anchor="middle" fill="white">Enzyme activity</text>
+    
+    <!-- Protected -->
+    <rect x="200" y="30" width="80" height="80" rx="8" fill="#7ab89a"/>
+    <text class="label" x="240" y="60" text-anchor="middle" fill="white">Protected</text>
+    <text class="sublabel" x="240" y="80" text-anchor="middle" fill="white">90% survives</text>
+    
+    <!-- Arrow -->
+    <path d="M190,110 L220,80" stroke="#7ab89a" stroke-width="2" fill="none"/>
+    
+    <!-- Result -->
+    <text class="label" x="110" y="180" text-anchor="middle">20x more reaches</text>
+    <text class="sublabel" x="110" y="198" text-anchor="middle">your bloodstream</text>
+  </g>
+  
+  <!-- Bottom note -->
+  <text class="sublabel" x="400" y="260" text-anchor="middle">Source: Planta Medica (1998) — Shoba et al.</text>
+</svg>

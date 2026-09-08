@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="auto">
+  <defs>
+    <style>
+      .map-bg { fill: #faf6ee; }
+      .ocean { fill: #d4e8f0; }
+      .land { fill: #e8dfc8; stroke: #b8a88a; stroke-width: 1; }
+      .origin { fill: #d4a853; stroke: #b88a3a; stroke-width: 2; }
+      .spread { fill: #4a9fa8; }
+      .route { stroke: #c85a4a; stroke-width: 2; fill: none; stroke-dasharray: 6,3; opacity: 0.7; }
+      .label { font-family: Georgia, serif; font-size: 11px; fill: #2a2018; }
+      .title { font-family: Georgia, serif; font-size: 16px; fill: #2a2018; font-weight: bold; }
+      .legend-text { font-family: Georgia, serif; font-size: 10px; fill: #4a3828; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="map-bg" width="800" height="500"/>
+  <rect class="ocean" width="800" height="500"/>
+  
+  <!-- Simplified continents -->
+  <path class="land" d="M80,150 Q200,100 350,140 L380,200 Q350,280 250,300 L150,280 Q80,220 80,150 Z"/>
+  <path class="land" d="M380,120 Q500,100 600,150 L620,220 Q580,300 480,320 L400,280 Q380,200 380,120 Z"/>
+  <path class="land" d="M600,180 Q720,150 780,220 L760,320 Q680,380 600,350 L580,280 Q580,220 600,180 Z"/>
+  <path class="land" d="M280,350 Q380,330 450,380 L420,450 Q350,470 280,440 Z"/>
+  
+  <!-- Origin points -->
+  <circle class="origin" cx="480" cy="200" r="10"/>
+  <text class="label" x="500" y="195">INDIA</text>
+  <text class="label" x="500" y="212" fill="#b88a3a">Turmeric, Black Pepper</text>
+  
+  <circle class="origin" cx="680" cy="220" r="10"/>
+  <text class="label" x="700" y="215">CHINA</text>
+  <text class="label" x="700" y="232" fill="#b88a3a">Ginger, Jujube</text>
+  
+  <circle class="origin" cx="420" cy="170" r="10"/>
+  <text class="label" x="370" y="165">IRAN</text>
+  <text class="label" x="355" y="182" fill="#b88a3a">Saffron</text>
+  
+  <!-- Spread to Middle East -->
+  <circle class="spread" cx="350" cy="220" r="6"/>
+  <text class="label" x="320" y="240">Middle East</text>
+  
+  <!-- Spread to Europe -->
+  <circle class="spread" cx="200" cy="200" r="6"/>
+  <text class="label" x="160" y="220">Europe</text>
+  
+  <!-- Spread to Americas -->
+  <circle class="spread" cx="180" cy="280" r="6"/>
+  <text class="label" x="140" y="300">Americas</text>
+  
+  <!-- Routes -->
+  <path class="route" d="M480,200 Q420,220 350,220"/>
+  <path class="route" d="M480,200 Q550,220 680,220"/>
+  <path class="route" d="M350,220 Q280,210 200,200"/>
+  <path class="route" d="M200,200 Q180,240 180,280"/>
+  <path class="route" d="M420,170 Q380,200 350,220"/>
+  <path class="route" d="M680,220 Q600,250 500,280"/>
+  
+  <!-- Title -->
+  <text class="title" x="400" y="50" text-anchor="middle">The Global Journey of Healing Spices</text>
+  <text class="legend-text" x="400" y="70" text-anchor="middle">How the ingredients in this book traveled the world</text>
+  
+  <!-- Legend -->
+  <circle cx="100" cy="470" r="6" fill="#d4a853" stroke="#b88a3a" stroke-width="2"/>
+  <text class="legend-text" x="115" y="475">Origin</text>
+  <circle cx="180" cy="470" r="6" fill="#4a9fa8"/>
+  <text class="legend-text" x="195" y="475">Adopted Region</text>
+  <line x1="280" y1="470" x2="310" y2="470" stroke="#c85a4a" stroke-width="2" stroke-dasharray="6,3"/>
+  <text class="legend-text" x="320" y="475">Trade Route</text>
+</svg>

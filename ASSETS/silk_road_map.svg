@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="auto">
+  <defs>
+    <style>
+      .map-bg { fill: #faf6ee; }
+      .land { fill: #e8dfc8; stroke: #b8a88a; stroke-width: 1; }
+      .route { fill: none; stroke: #c85a4a; stroke-width: 3; stroke-dasharray: 8,4; }
+      .route-node { fill: #b88a3a; }
+      .city-label { font-family: Georgia, serif; font-size: 14px; fill: #2a2018; font-weight: bold; }
+      .region-label { font-family: Georgia, serif; font-size: 11px; fill: #6b5a48; font-style: italic; }
+      .title { font-family: Georgia, serif; font-size: 18px; fill: #2a2018; font-weight: bold; }
+      .legend-text { font-family: Georgia, serif; font-size: 11px; fill: #4a3828; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="map-bg" width="800" height="400"/>
+  
+  <!-- Simplified land masses -->
+  <path class="land" d="M50,180 Q200,120 350,160 T650,140 L750,180 L750,320 Q600,340 450,320 T150,340 L50,320 Z"/>
+  
+  <!-- Europe -->
+  <ellipse class="land" cx="120" cy="200" rx="60" ry="40"/>
+  
+  <!-- Middle East -->
+  <ellipse class="land" cx="320" cy="220" rx="80" ry="50"/>
+  
+  <!-- India -->
+  <path class="land" d="M480,200 Q520,160 560,200 Q580,260 540,290 Q480,280 460,240 Z"/>
+  
+  <!-- China/East Asia -->
+  <path class="land" d="M620,140 Q700,120 750,160 Q760,220 720,260 Q650,270 600,240 Q580,200 620,140 Z"/>
+  
+  <!-- Main Silk Road Route -->
+  <path class="route" d="M150,200 Q250,210 320,220 Q400,230 460,220 Q520,210 580,200 Q640,190 700,170"/>
+  
+  <!-- Alternative sea route -->
+  <path class="route" d="M320,280 Q400,300 480,290 Q540,280 580,260" stroke="#4a9fa8" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- City nodes -->
+  <circle class="route-node" cx="150" cy="200" r="6"/>
+  <circle class="route-node" cx="320" cy="220" r="6"/>
+  <circle class="route-node" cx="460" cy="220" r="6"/>
+  <circle class="route-node" cx="580" cy="200" r="6"/>
+  <circle class="route-node" cx="700" cy="170" r="6"/>
+  
+  <!-- City labels -->
+  <text class="city-label" x="150" y="180" text-anchor="middle">Constantinople</text>
+  <text class="city-label" x="320" y="200" text-anchor="middle">Baghdad</text>
+  <text class="city-label" x="460" y="200" text-anchor="middle">Delhi</text>
+  <text class="city-label" x="580" y="180" text-anchor="middle">Kashgar</text>
+  <text class="city-label" x="700" y="150" text-anchor="middle">Xi'an</text>
+  
+  <!-- Region labels -->
+  <text class="region-label" x="100" y="240" text-anchor="middle">Europe</text>
+  <text class="region-label" x="320" y="260" text-anchor="middle">Middle East</text>
+  <text class="region-label" x="510" y="250" text-anchor="middle">India</text>
+  <text class="region-label" x="670" y="220" text-anchor="middle">China</text>
+  
+  <!-- Title -->
+  <text class="title" x="400" y="80" text-anchor="middle">The Silk Road — Highway of Healing</text>
+  <text class="region-label" x="400" y="100" text-anchor="middle">Ingredients, ideas, and remedies traveled these routes for over 1,500 years</text>
+  
+  <!-- Legend -->
+  <line x1="100" y1="350" x2="130" y2="350" stroke="#c85a4a" stroke-width="3" stroke-dasharray="8,4"/>
+  <text class="legend-text" x="140" y="355">Overland Route</text>
+  <line x1="250" y1="350" x2="280" y2="350" stroke="#4a9fa8" stroke-width="2" stroke-dasharray="4,4"/>
+  <text class="legend-text" x="290" y="355">Maritime Route</text>
+  
+  <!-- Ingredient movement arrows -->
+  <g transform="translate(200, 120)">
+    <path d="M0,20 L30,0 L30,10 L50,10 L50,30 L30,30 L30,40 Z" fill="#d4a853" opacity="0.7"/>
+    <text x="60" y="25" fill="#2a2018" font-size="12" font-family="Georgia, serif">Ginger, Turmeric → West</text>
+  </g>
+  
+  <g transform="translate(450, 120)">
+    <path d="M0,10 L20,10 L20,0 L50,20 L20,40 L20,30 L0,30 Z" fill="#4a9fa8" opacity="0.7"/>
+    <text x="60" y="25" fill="#2a2018" font-size="12" font-family="Georgia, serif">← Saffron, Rose, Dates</text>
+  </g>
+</svg>

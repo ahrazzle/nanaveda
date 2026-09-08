@@ -1,0 +1,74 @@
+{
+  "num": "1",
+  "title": "Kitchari",
+  "subtitle": "Ayurvedic Rice & Lentil Porridge",
+  "prep": "30 min soak",
+  "cook": "40 min",
+  "serves": "4",
+  "diff": "Easy",
+  "diff_class": "difficulty-easy",
+  "tags": [
+    "\ud83d\udfe2 Pantry Staple",
+    "Gut Healing",
+    "Complete Protein"
+  ],
+  "evidence": "traditional",
+  "why_heals": "Kitchari is the cornerstone of Ayurvedic healing \u2014 a monodiet staple used for centuries to reset the digestive system. The combination of rice and mung dal creates a complete protein profile, while the gentle spices kindle <em>agni</em> (digestive fire) without aggravating any of the three doshas.",
+  "ingredients": [
+    [
+      "gold",
+      "1 cup basmati rice",
+      "green"
+    ],
+    [
+      "coral",
+      "\u00bd cup split yellow mung dal",
+      "yellow"
+    ],
+    [
+      "teal",
+      "6 cups water",
+      "green"
+    ],
+    [
+      "gold",
+      "1 tbsp ghee or coconut oil",
+      "green"
+    ],
+    [
+      "coral",
+      "1 tsp cumin seeds",
+      "green"
+    ],
+    [
+      "teal",
+      "1 tsp turmeric powder",
+      "green"
+    ],
+    [
+      "gold",
+      "1 inch fresh ginger, grated",
+      "green"
+    ],
+    [
+      "coral",
+      "\u00bd tsp mustard seeds",
+      "green"
+    ],
+    [
+      "teal",
+      "Pinch of asafoetida (hing)",
+      "yellow"
+    ],
+    [
+      "gold",
+      "Salt to taste",
+      "green"
+    ]
+  ],
+  "hero": [
+    "https://images.unsplash.com/photo-1648788767120-d0d22bb2d621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDQwMDA5fDB8MXxyYW5kb218fHx8fHx8fHwxNzg3NDU4NzQwfA&ixlib=rb-4.1.0&q=80&w=1080",
+    "A white bowl filled with rice porridge",
+    "Markus Winkler"
+  ]
+}

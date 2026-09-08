@@ -1,0 +1,278 @@
+{
+  "turmeric": {
+    "title": "Turmeric",
+    "description": "Plant used as spice",
+    "extract": "Turmeric, or Curcuma longa, is a flowering plant in the ginger family Zingiberaceae. It is a perennial, rhizomatous, herbaceous plant native to the Indian subcontinent and Southeast Asia that requires temperatures between 20 and 30 °C and high annual rainfall to thrive. Plants are gathered each year for their rhizomes, some for propagation in the following season and some for consumption or dyeing.",
+    "url": "https://en.wikipedia.org/wiki/Turmeric"
+  },
+  "ginger": {
+    "title": "Ginger",
+    "description": "Species of plant used as a spice",
+    "extract": "Ginger is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine. It is an herbaceous perennial that grows annual pseudostems about one meter tall, bearing narrow leaf blades. The inflorescences bear flowers having pale yellow petals with purple edges, and arise directly from the rhizome on separate shoots.",
+    "url": "https://en.wikipedia.org/wiki/Ginger"
+  },
+  "sage": {
+    "title": "Salvia officinalis",
+    "description": "Species of plant",
+    "extract": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant. The common name \"sage\" is also used for closely related species and cultivars.",
+    "url": "https://en.wikipedia.org/wiki/Salvia_officinalis"
+  },
+  "honey": {
+    "title": "Honey",
+    "description": "Sweet and viscous substance made by bees",
+    "extract": "Honey is a sweet and viscous substance made by several species of bees, the best-known of which are honey bees. Honey is made and stored to nourish bee colonies. Bees produce honey by gathering and then refining the sugary secretions of plants or the secretions of other insects, like the honeydew of aphids. This refinement takes place both within individual bees, through regurgitation and enzymatic activity, and during storage in the hive, through water evaporation that concentrates the honey's ",
+    "url": "https://en.wikipedia.org/wiki/Honey"
+  },
+  "hibiscus": {
+    "title": "Roselle (plant)",
+    "description": "Species of flowering plant",
+    "extract": "Roselle is a species of flowering plant in the genus Sabdariffa that is native to Africa, most likely West Africa. In the 16th and early 17th centuries it was spread to Asia and the West Indies, where it has since become naturalized in many places. The stems are used for the production of bast fibre and the calyces are commonly steeped to make an infusion popular in many places around the world.",
+    "url": "https://en.wikipedia.org/wiki/Hibiscus_sabdariffa"
+  },
+  "black_seed": {
+    "title": "Nigella sativa",
+    "description": "Species of flowering plant in the buttercup family",
+    "extract": "Nigella sativa is an annual flowering plant in the family Ranunculaceae, native to western Asia, and eastern Europe. It is used as a spice in various food preparations.",
+    "url": "https://en.wikipedia.org/wiki/Nigella_sativa"
+  },
+  "miso": {
+    "title": "Miso",
+    "description": "Traditional Japanese seasoning",
+    "extract": "Miso  is a traditional Japanese seasoning. It is a thick paste produced by fermenting soybeans with salt and kōji, and sometimes rice, barley, seaweed, or other ingredients. It is used for sauces and spreads; pickling vegetables, fish, or meats; and mixing with dashi soup stock to serve as miso soup, a Japanese culinary staple food. Miso is high in protein and rich in minerals, and it played an important nutritional role in feudal Japan. Miso is widely used in both traditional and modern cooking",
+    "url": "https://en.wikipedia.org/wiki/Miso"
+  },
+  "beetroot": {
+    "title": "Beta vulgaris",
+    "description": "Species of flowering plant",
+    "extract": "Beta vulgaris (beet) is a species of flowering plant in the subfamily Betoideae of the family Amaranthaceae. It is a perennial plant usually growing up to 120 centimetres (4 ft) tall.",
+    "url": "https://en.wikipedia.org/wiki/Beta_vulgaris"
+  },
+  "saffron": {
+    "title": "Saffron",
+    "description": "Spice made from crocus flowers",
+    "extract": "Saffron is a spice derived from the flower of Crocus sativus, commonly known as the \"saffron crocus\". The vivid crimson stigma and styles, called threads, are collected and dried for use mainly as a seasoning and colouring agent in food. Saffron crocus was slowly propagated throughout much of Eurasia and later brought to parts of North Africa, North America, and Oceania.",
+    "url": "https://en.wikipedia.org/wiki/Saffron"
+  },
+  "cardamom": {
+    "title": "Cardamom",
+    "description": "Spice",
+    "extract": "Cardamom, sometimes cardamon or cardamum, is a spice made from the seeds of several plants in the genera Elettaria and Amomum in the family Zingiberaceae. Both genera are native to the Indian subcontinent and Indonesia. They are recognized by their small seed pods: triangular in cross-section and spindle-shaped, with a thin, papery outer shell and small, black seeds; Elettaria pods are light green and smaller, while Amomum pods are dark brown and larger.",
+    "url": "https://en.wikipedia.org/wiki/Cardamom"
+  },
+  "goji": {
+    "title": "Goji",
+    "description": "Fruit of Lycium barbarum",
+    "extract": "Goji, goji berry, or wolfberry, is the fruit of either Lycium barbarum or Lycium chinense, two closely related species of boxthorn in the nightshade family, Solanaceae. The two species are similar, but can be distinguished by differences in taste and sugar content. Both Lycium species are native to East Asia, and have been long used in traditional East Asian cuisine. In the United States, varieties of the genus are given the common names, desert-thorn; Berlandier's wolfberry is used for Lycium b",
+    "url": "https://en.wikipedia.org/wiki/Goji"
+  },
+  "jujube": {
+    "title": "Jujube",
+    "description": "Species of plant with edible fruit",
+    "extract": "Jujube, jujuba, Chinese jujube, red date or Chinese date is a species in the genus Ziziphus in the buckthorn family Rhamnaceae. It is often confused with the closely related Indian jujube, Z. mauritiana. The jujube tolerates a diverse range of climates, from temperate to tropical. Its origin is thought to be in eastern Asia, but it has been widely dispersed through cultivation, and is today cultivated in gardens as a shrub as well as in agriculture as a food crop. Its fruit is eaten freshly harv",
+    "url": "https://en.wikipedia.org/wiki/Jujube"
+  },
+  "shiitake": {
+    "title": "Shiitake",
+    "description": "Species of edible mushroom",
+    "extract": "The shiitake is an edible mushroom native to East Asia and mainland Southeast Asia, which is cultivated and consumed around the globe. The earliest written records of their cultivation dates to 1209, during the Song dynasty in China.",
+    "url": "https://en.wikipedia.org/wiki/Shiitake"
+  },
+  "mushroom": {
+    "title": "Mushroom",
+    "description": "Spore-bearing fruiting body of a fungus",
+    "extract": "A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground on soil or another food source. A toadstool generally refers to a poisonous mushroom.",
+    "url": "https://en.wikipedia.org/wiki/Mushroom"
+  },
+  "avicenna": {
+    "title": "Avicenna",
+    "description": "Persian polymath, physician and philosopher (c. 980–1037)",
+    "extract": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought. Avicenna is considered one of the greatest thinkers and medical scholars in history.",
+    "url": "https://en.wikipedia.org/wiki/Avicenna"
+  },
+  "curcumin": {
+    "title": "Curcumin",
+    "description": "Principal curcuminoid of turmeric",
+    "extract": "Curcumin is a bright yellow chemical produced by the plant species Curcuma longa. It is the principal curcuminoid of turmeric, a member of the ginger family, Zingiberaceae. It is sold as an herbal supplement, cosmetics ingredient, food flavoring, and food coloring.",
+    "url": "https://en.wikipedia.org/wiki/Curcumin"
+  },
+  "dosha": {
+    "title": "Dosha",
+    "description": "Ayurvedic medicine concept",
+    "extract": "Dosha is a central term in ayurveda originating from Sanskrit, and which refers to three categories or types of substances that are believed to be present conceptually in a person's body and mind. These dosha are assigned specific qualities and functions. These qualities and functions are affected by external and internal stimuli received by the body. Beginning with twentieth-century ayurvedic literature, the \"three-dosha theory\" has described how the quantities and qualities of three fundamenta",
+    "url": "https://en.wikipedia.org/wiki/Dosha"
+  },
+  "wakame": {
+    "title": "Wakame",
+    "description": "Species of seaweed",
+    "extract": "Wakame (Undaria pinnatifida) is a species of kelp native to cold, temperate coasts of the northwest Pacific Ocean. As an edible seaweed, it has a subtly sweet, but distinctive and strong flavour and satiny texture. It is most often served in soups and salads.",
+    "url": "https://en.wikipedia.org/wiki/Wakame"
+  },
+  "rose_water": {
+    "title": "Rose water",
+    "description": "Rose-flavored water",
+    "extract": "Rose water or rosewater is a flavoured water created by steeping rose petals in water. It is typically made as a by-product during the distillation of rose petals to make rose oil for perfumes. Rose water is widely used to flavour culinary dishes and enhance cosmetic products, and it is significant in religious rituals throughout Eurasia. Iran is a major producer, supplying around 90% of the world's rose water demand.",
+    "url": "https://en.wikipedia.org/wiki/Rose_water"
+  },
+  "sharbat": {
+    "title": "Sharbat (drink)",
+    "description": "Sweet drinks",
+    "extract": "Sharbat is a drink prepared from fruit or flower petals. It is a sweet cordial, and usually served chilled. It can be served in concentrated form and eaten with a spoon or diluted with water to create the drink.",
+    "url": "https://en.wikipedia.org/wiki/Sharbat_(drink)"
+  },
+  "kitchari": {
+    "title": "Khichdi",
+    "description": "South Asian rice and lentil dish",
+    "extract": "Khichdi or khichri is a dish in South Asian cuisine made of rice and lentils (dal) with numerous variations. Variations include bajra and mung dal khichri. In Indian culture, in several regions, especially in the northern areas, it is one of the first solid foods that babies eat.",
+    "url": "https://en.wikipedia.org/wiki/Kitchari"
+  },
+  "congee": {
+    "title": "Congee",
+    "description": "Asian savoury rice porridge dish",
+    "extract": "Congee is a form of savoury porridge, primarily made by boiling rice in a large amount of water until the rice softens. Depending on the rice–water ratio, the thickness of congee varies from a Western oatmeal porridge to a gruel. Congee is typically served with side dishes, or it can be topped with meat, fish, and pickled vegetables.",
+    "url": "https://en.wikipedia.org/wiki/Congee"
+  },
+  "imam_ibn_al-qayyim": {
+    "title": "Ibn Qayyim al-Jawziyya",
+    "description": "Muslim scholar, jurist, and theologian (1292–1350)",
+    "extract": "Shams al-Dīn ʾAbū ʿAbd Allāh Muḥammad ibn ʾAbī Bakr ibn ʾAyyūb al-Zurʿī al-Dimashqī al-Ḥanbalī, commonly known as Ibn Qayyim al-Jawziyya or Ibn al-Qayyim for short, or reverentially as al-Imam Ibn al-Qayyim in Sunni tradition, was an important medieval Syrian Arab Islamic jurist, theologian, and spiritual writer. Belonging to the Hanbali school of Fiqh, of which he is regarded as \"one of the most important thinkers,\" Ibn al-Qayyim was also the foremost disciple and student of Ibn Taymiyya, with ",
+    "url": "https://en.wikipedia.org/wiki/Ibn_al-Qayyim_al-Jawziyya"
+  },
+  "ibn_sina": {
+    "title": "Avicenna",
+    "description": "Persian polymath, physician and philosopher (c. 980–1037)",
+    "extract": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought. Avicenna is considered one of the greatest thinkers and medical scholars in history.",
+    "url": "https://en.wikipedia.org/wiki/Avicenna"
+  },
+  "piperine": {
+    "title": "Piperine",
+    "description": "Alkaloid responsible for the pungency of black pepper",
+    "extract": "Piperine is an alkaloid extracted from the plant, Piper nigrum. Responsible for the pungency of black pepper, it is used in food flavorings as a spice, in fragrances, as an insecticide, and as an animal pest repellent.",
+    "url": "https://en.wikipedia.org/wiki/Piperine"
+  },
+  "thymoquinone": {
+    "title": "Thymoquinone",
+    "description": "Chemical compound",
+    "extract": "Thymoquinone is a phytochemical compound found in the plant Nigella sativa. It is also found in select cultivated Monarda fistulosa plants, which can be steam distilled to produce an essential oil. Thymoquinone is also a major oxidation product of both thymol and its structural isomer, carvacrol.",
+    "url": "https://en.wikipedia.org/wiki/Thymoquinone"
+  },
+  "beta-glucan": {
+    "title": "Beta-glucan",
+    "description": "Class of chemical compounds",
+    "extract": "Beta-glucans, β-glucans comprise a group of β-D-glucose polysaccharides (glucans) naturally occurring in the cell walls of plants, bacteria, algae and fungi, with significantly differing physicochemical properties dependent on source. Typically, β-glucans form a linear backbone with 1–3 β-glycosidic bonds but differ with respect to molecular mass, solubility, viscosity, branching structure, and gelation properties, with several physiological roles in these organisms and causing diverse physiolog",
+    "url": "https://en.wikipedia.org/wiki/Beta-glucan"
+  },
+  "agni": {
+    "title": "Agni",
+    "description": "Hindu fire god",
+    "extract": "Agni is the Hindu god of fire. As the guardian deity of the southeast direction, he is typically found in southeast corners of Hindu temples. In the classical cosmology of Hinduism, fire (Agni) is one of the five inert impermanent elements (Pañcabhūtá) along with sky (Ākāśa), water (Apas), air (Vāyu) and earth (Pṛthvī), the five combining to form the empirically perceived material existence (Prakṛti).",
+    "url": "https://en.wikipedia.org/wiki/Agni"
+  },
+  "tridosha": {
+    "title": "Dosha",
+    "description": "Ayurvedic medicine concept",
+    "extract": "Dosha is a central term in ayurveda originating from Sanskrit, and which refers to three categories or types of substances that are believed to be present conceptually in a person's body and mind. These dosha are assigned specific qualities and functions. These qualities and functions are affected by external and internal stimuli received by the body. Beginning with twentieth-century ayurvedic literature, the \"three-dosha theory\" has described how the quantities and qualities of three fundamenta",
+    "url": "https://en.wikipedia.org/wiki/Tridosha"
+  },
+  "spleen_qi": {
+    "title": "Spleen (Chinese medicine)",
+    "description": "Zàng organ in traditional Chinese medicine",
+    "extract": "The Spleen is one of the zàng organs stipulated by traditional Chinese medicine (TCM). It is a functionally defined entity and not equivalent to the anatomical organ of the same name.",
+    "url": "https://en.wikipedia.org/wiki/Spleen_(Chinese_medicine)"
+  },
+  "phytic_acid": {
+    "title": "Phytic acid",
+    "description": "Chemical compound",
+    "extract": "Phytic acid is a six-fold dihydrogenphosphate ester of inositol, also called inositol hexaphosphate, inositol hexakisphosphate (IP6) or inositol polyphosphate. At physiological pH, the phosphates are partially ionized, resulting in the phytate anion.",
+    "url": "https://en.wikipedia.org/wiki/Phytic_acid"
+  },
+  "ace_inhibitors": {
+    "title": "ACE Inhibitors",
+    "definition": "Angiotensin-converting enzyme inhibitors — a class of medications used to treat high blood pressure and heart failure by relaxing blood vessels. Hibiscus tea acts as a natural ACE inhibitor.",
+    "url": "https://en.wikipedia.org/wiki/ACE_inhibitor"
+  },
+  "al_zahrawi": {
+    "title": "Al-Zahrawi",
+    "definition": "Abulcasis (936–1013 CE) — Arab physician and surgeon of the Islamic Golden Age. His 30-volume medical encyclopedia, Al-Tasrif, was used in European medical schools for over 500 years. He described numerous herbal remedies including sage for memory and digestion.",
+    "url": "https://en.wikipedia.org/wiki/Al-Zahrawi"
+  },
+  "anthocyanins": {
+    "title": "Anthocyanins",
+    "definition": "Water-soluble pigments that give red, purple, and blue color to plants. Found in hibiscus, berries, and beets — powerful antioxidants that protect cells from oxidative damage and support cardiovascular health.",
+    "url": "https://en.wikipedia.org/wiki/Anthocyanin"
+  },
+  "beta_glucans": {
+    "title": "Beta-Glucans",
+    "definition": "Complex polysaccharides found in mushroom cell walls, oats, and yeast. They act as immunomodulators — training the immune system to respond more effectively to threats while calming overactive responses. Particularly valuable for seniors with age-related immune decline (immunosenescence).",
+    "url": "https://en.wikipedia.org/wiki/Beta-glucan"
+  },
+  "dioscorides": {
+    "title": "Dioscorides",
+    "definition": "Greek physician (40–90 CE) who served in the Roman army. His five-volume De Materia Medica was the first systematic pharmacopeia, describing over 600 medicinal plants. It remained the standard medical text in Europe for over 1,500 years.",
+    "url": "https://en.wikipedia.org/wiki/Pedanius_Dioscorides"
+  },
+  "habba_sawda": {
+    "title": "Habba Sawda",
+    "definition": "Arabic for \"black seed\" (Nigella sativa). Called habbatul barakah — \"the blessed seed\" — in Islamic tradition. The Prophet Muhammad ﷺ described it as a cure for every disease except death (Sahih al-Bukhari 5688).",
+    "url": "https://en.wikipedia.org/wiki/Nigella_sativa"
+  },
+  "immunosenescence": {
+    "title": "Immunosenescence",
+    "definition": "The gradual deterioration of the immune system due to aging. Natural killer cell activity decreases, T-cell diversity shrinks, and chronic low-grade inflammation increases (\"inflammaging\"). Mushroom beta-glucans and black seed thymoquinone have been shown to counteract these effects.",
+    "url": "https://en.wikipedia.org/wiki/Immunosenescence"
+  },
+  "nitric_oxide": {
+    "title": "Nitric Oxide",
+    "definition": "A molecule produced by the body that relaxes and dilates blood vessels, improving circulation and lowering blood pressure. Dietary nitrates from beetroot are converted to nitric oxide in the body — a mechanism that reduces systolic blood pressure by 4-5 mmHg on average.",
+    "url": "https://en.wikipedia.org/wiki/Nitric_oxide"
+  },
+  "ottoman_empire": {
+    "title": "Ottoman Empire",
+    "definition": "One of history's longest-lasting empires (1299–1922), spanning three continents. Ottoman cuisine preserved and spread sharbat-making, spice cultivation, and herbal medicine traditions across the Middle East, North Africa, and Eastern Europe. The imperial kitchens elevated sharbat to an art form.",
+    "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+  },
+  "panchakarma": {
+    "title": "Panchakarma",
+    "definition": "Ayurvedic detoxification protocol — \"five actions\" (vomiting, purgation, enema, nasal cleansing, bloodletting). Kitchari is the primary food prescribed during Panchakarma because it nourishes while allowing the digestive system to rest and reset.",
+    "url": "https://en.wikipedia.org/wiki/Panchakarma"
+  },
+  "prophetic_medicine": {
+    "title": "Prophetic Medicine",
+    "definition": "Al-Tibb al-Nabawi — the Islamic healing tradition derived from the medical recommendations and practices of Prophet Muhammad ﷺ. Compiled by scholars like Ibn al-Qayyim in works such as Zad al-Ma'ad, it covers diet, herbal remedies, and spiritual wellness.",
+    "url": "https://en.wikipedia.org/wiki/Prophetic_medicine"
+  },
+  "scholey": {
+    "title": "Scholey Study",
+    "definition": "A landmark 2008 study by Dr. Andrew Scholey (University of Newcastle) published in Psychopharmacology. Sage extract significantly improved memory and attention in healthy older adults. A follow-up 2014 study showed cognitive benefits in Alzheimer's patients.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18350281/"
+  },
+  "silk_road": {
+    "title": "Silk Road",
+    "definition": "Ancient trade network connecting China to the Mediterranean (active 130 BCE – 1453 CE). Spices, medicinal plants, and healing knowledge traveled along these routes — ginger and jujube went west, while saffron and rose water moved east. Goji berries and jujube dates reached the Middle East via these routes.",
+    "url": "https://en.wikipedia.org/wiki/Silk_Road"
+  },
+  "slave_trade": {
+    "title": "Transatlantic Slave Trade",
+    "definition": "Enslaved Africans brought hibiscus sabdariffa (West African bissap) to the Americas during the transatlantic trade. The drink became deeply embedded in Latin American culture as agua de Jamaica — a story of cultural resilience and survival across continents.",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+  },
+  "tibb_nabawi": {
+    "title": "Al-Tibb al-Nabawi",
+    "definition": "Prophetic Medicine — the comprehensive Islamic medical tradition compiled by scholars including Ibn al-Qayyim (Zad al-Ma'ad) in the 14th century. Covers herbal remedies, dietary guidance, and spiritual dimensions of healing based on Quranic teachings and Prophetic hadith.",
+    "url": "https://en.wikipedia.org/wiki/Prophetic_medicine"
+  },
+  "zeaxanthin": {
+    "title": "Zeaxanthin",
+    "definition": "A carotenoid pigment found in goji berries, corn, and leafy greens. It accumulates in the retina where it acts as a natural blue-light filter and antioxidant, protecting against age-related macular degeneration (AMD) — the leading cause of vision loss in adults over 50.",
+    "url": "https://en.wikipedia.org/wiki/Zeaxanthin"
+  },
+  "ibn_qayyim": {
+    "title": "Imam Ibn al-Qayyim",
+    "definition": "14th-century Syrian Islamic scholar (1292–1350 CE), foremost student of Ibn Taymiyyah. His \"Prophetic Medicine\" (al-Tibb al-Nabawi) compiled the medical teachings of Prophet Muhammad ﷺ, covering herbal remedies, diet, and spiritual wellness. He described rice porridge as beneficial for the weak and convalescent.",
+    "url": "https://en.wikipedia.org/wiki/Ibn_Qayyim_al-Jawziyya"
+  },
+  "tridoshic": {
+    "title": "Tridoshic",
+    "definition": "Ayurvedic term meaning \"balancing all three doshas\" (Vata, Pitta, Kapha). A tridoshic food or remedy is suitable for all constitutional types and does not aggravate any dosha — making it universally beneficial and gentle.",
+    "url": "https://en.wikipedia.org/wiki/Tridosha"
+  }
+}
