@@ -1077,3 +1077,8 @@ body {
 .term-popup-panel { position: relative; max-width: 32rem; width: 100%; }
 #term-popup-content { padding-top: 3.5rem; }
 .term-popup-close { width: 2.5rem; height: 2.5rem; }
+
+/* A visible keyboard destination without permanent browser-default link styling. */
+.skip-link { position: fixed; top: 1rem; left: 1rem; z-index: 10001; padding: .7rem 1rem; background: var(--cream); color: var(--burgundy); border: 2px solid var(--burgundy); border-radius: var(--radius-md); font-weight: 700; transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); outline: 3px solid var(--teal); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

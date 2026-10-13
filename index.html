@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="masculine">
-  <a href="#page-title" class="skip-link">Skip to first recipe</a>
+  <a href="#page-recipe-1" class="skip-link" onclick="goToPage('page-recipe-1'); document.getElementById('page-recipe-1').focus(); return false;">Skip to first recipe</a>
   
   <div class="text-controls">
     <button onclick="setTextSize('small')" title="Smaller text" id="ts-small"><i class="fas fa-minus"></i></button>
@@ -55,7 +55,7 @@
     </div>
 
     <!-- RECIPE 1: KITCHARI -->
-    <div class="page-view" id="page-recipe-1">
+    <div class="page-view" id="page-recipe-1" tabindex="-1">
       <article id="recipe-1">
         <div class="visual-container" style="margin-left:0"><div class="visual-frame"><img src="ASSETS/kitchari_hero.jpg" alt="Kitchari" loading="lazy"></div><p class="visual-caption">Kitchari — the Ayurvedic healing porridge</p></div>
         <div class="recipe-header">
