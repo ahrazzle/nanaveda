@@ -865,7 +865,6 @@ body {
   border: 3px solid var(--burgundy);
   border-radius: var(--radius-lg);
   padding: var(--space-2xl);
-  max-width: 32rem;
   width: 100%;
   max-height: 80vh;
   overflow-y: auto;
@@ -1069,3 +1068,12 @@ body {
 .ingredients-section {
   margin: var(--space-3xl) 0;
 }
+
+/* Preparation notes reuse the recipe and physical audit, with no efficacy claims. */
+.recipe-note { margin: var(--space-xl) 0; padding: var(--space-lg); border-left: 4px solid var(--teal); background: var(--cream-dark); border-radius: var(--radius-md); }
+.recipe-note-label { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: var(--teal); }
+.recipe-note h3 { margin: .5rem 0 1rem; }
+.recipe-note ul { padding-left: 1.4rem; line-height: 1.8; }
+.term-popup-panel { position: relative; max-width: 32rem; width: 100%; }
+#term-popup-content { padding-top: 3.5rem; }
+.term-popup-close { width: 2.5rem; height: 2.5rem; }

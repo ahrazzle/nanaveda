@@ -3,7 +3,7 @@
 import json
 import os
 
-WORKSPACE = '/Users/kethuda/Documents/ai work/Hermes/nanaveda/wrk/nvt6'
+WORKSPACE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(WORKSPACE, 'ASSETS')
 
 # Load asset data

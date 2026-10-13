@@ -1,152 +1,116 @@
-/**
- * Nanaveda — Clickable Terms System
- * 
- * Clicking on highlighted terms opens a modal with:
- * - Definition from verified sources
- * - Cultural/historical context
- * - Link to learn more
- * 
- * Data source: terms_complete.json (encyclopedic definitions)
- * Fallback: Wikipedia API for terms not in local database
- */
-
-// Terms database (populated from terms_complete.json)
+/** Clickable glossary definitions from the local terms database. */
 let termsDB = {};
+let lastFocusedElement = null;
+let popupRequest = 0;
+let pendingLookup = null;
 
-// Load terms database
 async function loadTermsDB() {
     try {
-        const response = await fetch('terms_complete.json');
+        const response = await fetch('terms_complete.json', { signal: AbortSignal.timeout(8000) });
+        if (!response.ok) throw new Error('Glossary unavailable');
         termsDB = await response.json();
-    } catch (e) {
-        console.warn('Could not load terms database, using fallback');
+    } catch {
+        console.warn('Could not load the local glossary.');
     }
 }
 
-// Open term popup
-function openTermPopup(termKey, event) {
+function paragraph(className, text) {
+    const node = document.createElement('p');
+    node.className = className;
+    node.textContent = text;
+    return node;
+}
+
+async function openTermPopup(termKey, event) {
     event.preventDefault();
     event.stopPropagation();
-    
+    pendingLookup?.abort();
+    const request = ++popupRequest;
     const popup = document.getElementById('term-popup');
-    const popupContent = document.getElementById('term-popup-content');
-    
-    // Normalize term key
+    const content = document.getElementById('term-popup-content');
     const key = termKey.replace(/\s+/g, '_').replace(/[()]/g, '');
-    const termData = termsDB[key] || termsDB[termKey] || null;
-    
-    let html = '';
-    
-    if (termData) {
-        html = `
-            <h3 id="term-popup-title">${termData.title || termKey}</h3>
-            <p class="term-popup-description">${termData.description || ''}</p>
-            ${termData.extract ? `<p class="term-popup-extract">${termData.extract}</p>` : ''}
-            ${termData.url ? `<a href="${termData.url}" target="_blank" rel="noopener" class="term-popup-link">Learn more →</a>` : ''}
-            <p class="term-popup-source">Source: Wikipedia / Grokipedia</p>
-        `;
-    } else {
-        html = `
-            <h3 id="term-popup-title">${termKey}</h3>
-            <p class="term-popup-description">Loading definition...</p>
-            <p class="term-popup-source">Information being researched.</p>
-        `;
-        // Attempt Wikipedia fetch as fallback
-        fetchWikipediaTerm(termKey).then(data => {
-            if (data) {
-                document.getElementById('term-popup-title').textContent = data.title || termKey;
-                const descEl = document.querySelector('.term-popup-description');
-                if (descEl) descEl.textContent = data.description || data.extract || 'No definition available.';
-            }
-        });
+    const data = termsDB[key] || termsDB[termKey];
+    const title = document.createElement('h3');
+    title.id = 'term-popup-title';
+    title.textContent = data?.title || termKey;
+    const description = paragraph('term-popup-description', data?.description || 'Loading definition…');
+    content.replaceChildren(title, description);
+    if (data?.extract) content.appendChild(paragraph('term-popup-extract', data.extract));
+    if (data?.url && /^https?:\/\//i.test(data.url)) {
+        const link = document.createElement('a');
+        link.href = data.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.className = 'term-popup-link';
+        link.textContent = 'Learn more →';
+        content.appendChild(link);
     }
-    
-    popupContent.innerHTML = html;
+    if (data) content.appendChild(paragraph('term-popup-source', 'Source: Wikipedia / Grokipedia'));
     popup.classList.add('active');
+    popup.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
-    
-    // Focus management for accessibility
-    setTimeout(() => {
-        const closeBtn = popup.querySelector('.term-popup-close');
-        if (closeBtn) closeBtn.focus();
-    }, 100);
+    popup.querySelector('.term-popup-close').focus();
+    if (!data) {
+        pendingLookup = new AbortController();
+        const result = await fetchWikipediaTerm(termKey, pendingLookup.signal);
+        if (request !== popupRequest) return;
+        title.textContent = result?.title || termKey;
+        description.textContent = result?.description || result?.extract || 'Definition unavailable. Please try again when you are connected.';
+    }
 }
 
-// Close term popup
 function closeTermPopup() {
     const popup = document.getElementById('term-popup');
+    if (!popup.classList.contains('active')) return;
+    ++popupRequest;
+    pendingLookup?.abort();
     popup.classList.remove('active');
+    popup.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
-    
-    // Return focus to trigger element
-    if (lastFocusedElement) {
-        lastFocusedElement.focus();
-        lastFocusedElement = null;
-    }
+    lastFocusedElement?.focus();
+    lastFocusedElement = null;
 }
 
-let lastFocusedElement = null;
-
-// Fetch from Wikipedia as fallback
-async function fetchWikipediaTerm(term) {
+async function fetchWikipediaTerm(term, signal) {
     try {
-        const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`);
-        if (response.ok) {
-            return await response.json();
-        }
-    } catch (e) {
-        console.warn('Wikipedia fetch failed:', e);
-    }
-    return null;
+        const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`, {
+            signal: AbortSignal.any([signal, AbortSignal.timeout(8000)]),
+        });
+        return response.ok ? await response.json() : null;
+    } catch { return null; }
 }
 
-// Initialize term clickability
 function initClickableTerms() {
-    // Add click handlers to all term elements
     document.querySelectorAll('.term').forEach(el => {
-        el.addEventListener('click', function(e) {
-            lastFocusedElement = this;
-            const termKey = this.getAttribute('data-term') || this.textContent;
-            openTermPopup(termKey, e);
+        const open = e => {
+            lastFocusedElement = el;
+            void openTermPopup(el.getAttribute('data-term') || el.textContent, e);
+        };
+        el.addEventListener('click', open);
+        el.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') open(e);
         });
-        
-        // Keyboard accessibility
-        el.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                lastFocusedElement = this;
-                const termKey = this.getAttribute('data-term') || this.textContent;
-                openTermPopup(termKey, e);
-            }
-        });
-        
-        // Make focusable
         el.setAttribute('tabindex', '0');
         el.setAttribute('role', 'button');
         el.setAttribute('aria-label', `Learn more about ${el.textContent}`);
     });
-    
-    // Close popup on escape key
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            closeTermPopup();
+    const popup = document.getElementById('term-popup');
+    popup.querySelector('.term-popup-close').addEventListener('click', closeTermPopup);
+    popup.addEventListener('click', e => { if (e.target === popup) closeTermPopup(); });
+    document.addEventListener('keydown', e => {
+        if (!popup.classList.contains('active')) return;
+        if (e.key === 'Escape') { e.preventDefault(); closeTermPopup(); }
+        if (e.key === 'Tab') {
+            const focusable = Array.from(popup.querySelectorAll('a[href], button'));
+            const first = focusable[0], last = focusable[focusable.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
         }
     });
-    
-    // Close popup on backdrop click
-    const popup = document.getElementById('term-popup');
-    if (popup) {
-        popup.addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeTermPopup();
-            }
-        });
-    }
 }
 
-// Initialize on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
-    loadTermsDB().then(() => {
-        initClickableTerms();
-    });
+    // Make terms usable immediately, including if the database fails to load.
+    initClickableTerms();
+    void loadTermsDB();
 });
