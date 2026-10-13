@@ -3,7 +3,7 @@
 import os
 import re
 
-WORKSPACE = '/Users/kethuda/Documents/ai work/Hermes/nanaveda/wrk/nvt6'
+WORKSPACE = os.path.dirname(os.path.abspath(__file__))
 
 with open(os.path.join(WORKSPACE, 'index.html')) as f:
     html = f.read()
